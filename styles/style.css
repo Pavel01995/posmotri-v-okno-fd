@@ -118,11 +118,9 @@ ol {
 
 .content__card-link {
   display: block;
-
   color: #fff;
   text-decoration: none;
   cursor: pointer;
-
   font-weight: 400;
   font-size: 18px;
   line-height: 16.2px;
