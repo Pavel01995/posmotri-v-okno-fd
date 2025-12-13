@@ -47,21 +47,16 @@ ol {
   display: flex;
   justify-content: center;
   align-items: center;
-
   inline-size: 1200px;
   min-height: 100vh;
   margin: auto;
-
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
-
   background-color: #1b1919;
   block-size: 100%;
 }
 
-/*  add similiar font for title  */
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
 
 .content {
   display: flex;
@@ -128,7 +123,7 @@ ol {
 
 
 .content__card-link_current {
-  background-color: #1b1919;
+  background-color: #545050;
 }
 
 
@@ -153,10 +148,10 @@ ol {
 }
 
 
-/*    card title */
+/*   card title */
 
 .content__video-card-title {
-  font-family: 'Oswald', 'Roboto Condensed', Arial, 'sans-serif';
+  font-family: 'Oswald', Arial, 'sans-serif';
   max-width: 196px;
   overflow: hidden;
   font-weight: 700;
@@ -169,7 +164,7 @@ ol {
 
 
 .title {
-  font-family: 'Oswald', 'Roboto Condensed', Arial, 'sans-serif';
+  font-family: 'Oswald', Arial, 'sans-serif';
   max-width: 259px;
   margin-left: 3px;
   font-weight: 700;
@@ -309,7 +304,6 @@ ol {
   height: 100%;
   background-color: #fff;
   opacity: 0;
-
 }
 
 .search-form__checkbox:checked+.search-form__pseudo-checkbox::after {
@@ -359,13 +353,10 @@ ol {
 .search-form__submit-button {
   width: 194px;
   align-self: flex-end;
-
-
 }
 
 .more-button {
   width: 390px;
-
 }
 
 .button:hover {
@@ -383,7 +374,6 @@ ol {
 .button:focus-visible {
   outline: 1px solid #fff;
   outline-offset: 2px;
-
 }
 
 .visually-hidden {
